@@ -30,7 +30,7 @@ export function Navigation() {
             <Link href="#about" className="text-gray-700 hover:text-black transition-colors">
               About
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-black transition-colors">
+            <Link href="/contact" className="text-gray-700 hover:text-black transition-colors">
               Contact
             </Link>
             <Button asChild className="bg-black hover:bg-gray-800 text-white">
@@ -70,7 +70,7 @@ export function Navigation() {
                 About
               </Link>
               <Link
-                href="#contact"
+                href="/contact"
                 className="block px-3 py-2 text-gray-700 hover:text-black transition-colors"
                 onClick={() => setIsOpen(false)}
               >
