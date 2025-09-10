@@ -67,6 +67,11 @@ export function Footer() {
             <h4 className="font-semibold text-lg">Contact</h4>
             <ul className="space-y-2">
               <li>
+                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
+                  Contact Us
+                </Link>
+              </li>
+              <li>
                 <Link href="mailto:hello@caspcore.com" className="text-gray-400 hover:text-white transition-colors">
                   hello@caspcore.com
                 </Link>

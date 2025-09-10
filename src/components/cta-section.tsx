@@ -24,15 +24,12 @@ export function CTASection() {
             Join crypto providers who are already using Caspcore to achieve full MiCA compliance.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button asChild size="lg" className="bg-white text-black hover:bg-gray-100">
               <Link href="/demo">
                 Request Demo
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-            </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-black">
-              <Link href="#features">Learn More</Link>
             </Button>
           </div>
         </motion.div>
