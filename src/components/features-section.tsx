@@ -19,8 +19,8 @@ const features = [
   },
   {
     icon: FileText,
-    title: "Automated Whitepaper Generation",
-    description: "Generate MiCA-compliant whitepapers automatically with our AI, ensuring all regulatory requirements are met."
+    title: "Whitepaper Compliance Assessment",
+    description: "Our AI analyzes your existing whitepaper against MiCA regulations, identifying compliance gaps and providing specific recommendations for improvement."
   },
   {
     icon: Shield,
