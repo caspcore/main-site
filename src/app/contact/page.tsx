@@ -11,7 +11,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, Linkedin, MessageCircle, Twitter } from "lucide-react";
 import { submitDemoRequest, validateForm, type FormData } from "@/lib/form-handler";
 
 export default function ContactPage() {
@@ -265,7 +265,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-black mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1">Phone</h4>
-                      <p className="text-sm text-gray-600">+1 (555) 123-4567</p>
+                      <p className="text-sm text-gray-600">+372 55595080</p>
                     </div>
                   </div>
                   
@@ -273,7 +273,7 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6 text-black mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1">Office</h4>
-                      <p className="text-sm text-gray-600">London, United Kingdom</p>
+                      <p className="text-sm text-gray-600">Estonia</p>
                     </div>
                   </div>
                   
@@ -281,8 +281,54 @@ export default function ContactPage() {
                     <Clock className="w-6 h-6 text-black mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1">Business Hours</h4>
-                      <p className="text-sm text-gray-600">Mon-Fri 9AM-6PM GMT</p>
+                      <p className="text-sm text-gray-600">Mon-Fri 9AM-6PM EET</p>
                     </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Follow Us</CardTitle>
+                  <CardDescription>
+                    Connect with us on social media for updates and news.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <Linkedin className="w-5 h-5 text-black flex-shrink-0" />
+                    <a 
+                      href="https://linkedin.com/company/caspcore" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-600 hover:text-black transition-colors"
+                    >
+                      @caspcore
+                    </a>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <Twitter className="w-5 h-5 text-black flex-shrink-0" />
+                    <a 
+                      href="https://twitter.com/caspcore" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-600 hover:text-black transition-colors"
+                    >
+                      @caspcore
+                    </a>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <MessageCircle className="w-5 h-5 text-black flex-shrink-0" />
+                    <a 
+                      href="https://discord.gg/caspcore" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-600 hover:text-black transition-colors"
+                    >
+                      @caspcore
+                    </a>
                   </div>
                 </CardContent>
               </Card>
